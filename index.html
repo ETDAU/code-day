@@ -1,0 +1,524 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>OPS Mega Code Day</title>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lalezar|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="icon" type="image/x-icon" href="images/suprise.ico" />
+    <style>
+    body
+    {
+        font-family: 'Roboto Condensed', sans-serif;
+        background: #EEE;
+    }
+    h1
+    {
+        font-family: 'Lalezar', cursive;
+        font-size: 46px;
+    }
+    h2
+    {
+        font-family: 'Lalezar', cursive;
+        font-size: 36px;
+    }
+    .row
+    {
+        background: #FFF;
+    }
+    .container
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        -webkit-box-shadow: -1px 0px 20px 1px rgba(153,153,153,1);
+        -moz-box-shadow: -1px 0px 20px 1px rgba(153,153,153,1);
+        box-shadow: -1px 0px 20px 1px rgba(153,153,153,1);
+    }
+    .intro
+    {
+        font-size: 16px;
+    }
+    .panel-title a
+    {
+        display: inline-block;
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+
+    <div class="col-md-6">
+    <h1 style="text-align: center;">OPS Mega Code Day </h1>
+    </div>
+    <div class="col-md-6">
+    <h3><img src="images/slack.png" style="width: 35px; height: 35px; margin-right: 0.25em;" /><a href="https://opscodedays.slack.com/" target="_blank">Join our Slack Here! Password:tuition</a></h3>
+    </div>
+
+    </div> <!-- row -->
+  <div class="row">
+    <div class="col-md-6">
+
+    <div class="intro">
+
+    <h3 style="text-align: center;">Welcome to OPS Mega Code Day!</h3>
+    <h4 style="text-align: center;">Session 2</h4>
+
+        <p>Imagine. You are knee deep in debugging your masterpiece data model. You know you’re close to finding that elusive bug. You’ve been avoiding e-mail, but finally, a subject line you can’t avoid: <b><em>“URGENT RUSH FACT CHECK DUE 3 HOURS AGO EVEN THOUGH YOU JUST RECEIVED IT.”</em></b></p>
+
+        <p>Sometimes we have to get away from the urgent tasks to get to the important ones. Coding is challenging and often requires undisturbed time. Thus, <b>Research and Planning Branch</b> is hosting a MAESD CODE DAY. Quite simply, it is a full day event  where you code(no matter your tool, from Excel, R, Python, javascript, fortran or even raspberry pi) and make something awesome with your fellow colleagues around MAESD.</p>
+
+        <p>There’s no curriculum or training. <b> Just a undisturbed workday to build!</b> hope that this will be a great time to share and exchange ideas, digital strategies and other tips and tricks throughout our units and branches.
+        </p>
+
+
+        <p><em><i>So. No meetings. No interruptions. Just build.</i></em></p>
+
+        <p>Want to try out Pair Coding? You can do that. Need to find a python wizard? Find them at Code Day. Been wanting to build the Excel model of your dreams? This is the time! Looking for a reason to use that new clustering algorithm? Yup do it here!</p>
+
+        <p><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> <a href="https://docs.google.com/presentation/d/1c_7eTX_SKPHf-_AoFaLTdn-1Abo1MkWZESGvHAFojC4/edit?usp=sharing" target="_blank">View the slide deck</a></p>
+
+        </div> <!-- intro -->
+
+
+ <h2>There is something we want to communicate to you. <i>You can learn how to code.</i></h2>
+
+    </div> <!-- col-md-6 -->
+    <div class="col-md-6">
+
+        <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title" style="font-size: 24px;">Agenda</h3>
+        </div>
+        <div class="panel-body" style="padding: 0;">
+
+<ul class="list-group" style="margin-bottom: 0;">
+  <li class="list-group-item">
+      <h4>9:00am - 9:30am</h4>
+        <ul>
+            <li>Opening remarks</li>
+            <li>Icebreaker game</li>
+            <li>Introductions (including your project for the day)</li>
+        </ul>
+  </li>
+  <li class="list-group-item">
+      <h4>9:30am - 12:30pm</h4>
+        <ul>
+            <li>Work on your project (either independently or collaboratively - ask for help!)</li>
+        </ul>
+  </li>
+  <li class="list-group-item">
+      <h4>12:30pm - 1:30pm</h4>
+        <ul>
+            <li>(Working) lunch</li>
+        </ul>
+  </li>
+  <li class="list-group-item">
+      <h4>1:30pm - 4:00pm</h4>
+        <ul>
+        <li>Work some more</li>
+        <li>Take a break with a party game</li>
+        </ul>
+  </li>
+  <li class="list-group-item">
+      <h4>4:00pm - 5:00pm</h4>
+        <ul>
+            <li>Optional Show &amp; Tell</li>
+            <li>Closing Remarks</li>
+        </ul>
+  </li>
+</ul>
+        </div> <!-- panel-body -->
+    </div> <!-- panel -->
+
+<div class="alert alert-success" role="alert" style="font-size: 18px;">
+<span class="glyphicon glyphicon-comment" aria-hidden="true" style="color: #FAFDFF; float: left; font-size: 36px; text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);"></span>
+    <p class="survey" style="padding-left: 3em;"><a href="https://www.surveymonkey.com/r/OPSMegaCodeDay" target="_blank">Let us know what you think!</a> Tell us about your experience with Code Day and to help us improve.</p>
+</div>
+        
+    </div> <!-- col-md-6 -->
+  </div> <!-- row -->
+
+  <div class="row">
+    <div class="col-md-12">
+    <h2 style="text-align: center;"><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Resources</h2>
+
+    <div class="intro">
+    <p>These are the resources that helped us through our journey. If your reading this, this is your first step on the journey of building great digital things!</p>
+    </div>
+    </div> <!-- col-md-12 -->
+</div> <!-- row -->
+
+<div class="row">
+    <div class="col-md-6">
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+<div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd12">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c12" aria-expanded="false" aria-controls="c12">
+          IDEs
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd12">
+      <div class="panel-body">
+        <ul>
+            <li><a href="https://atom.io/" target="_blank">Atom</a>
+            <p>Atom is modern, approachable, and hackable to the core text editor.</p></li>
+            <li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>
+            <p>Sublime Text is a sophisticated text editor for code, markup and prose.</p></li>
+            <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
+            <p>Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications</p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd11">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c11" aria-expanded="false" aria-controls="c11">
+          Version Control
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd11">
+      <div class="panel-body">
+        <ul>
+            <li><a href="https://git-scm.com/" target="_blank">Git</a>
+            <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p></li>
+            <li><a href="http://github.com/" target="_blank">Github</a>
+            <p>Host and review code, manage projects, and build software alongside millions of other developers.</p></li>
+            <li><a href="https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet" target="_blank">Git Cheat Sheet (courtesy of Atlassian)</a>
+            <p>Basic Git commands to help you learn Git, and more advanced concepts around Git branches, remote repositories, undoing changes, and more.</p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd1">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c1" aria-expanded="false" aria-controls="c1">
+          R - Programing Language
+        </a>
+      </h4>
+    </div>
+    <div id="c1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd1">
+      <div class="panel-body">
+        <ol>
+                    <li>[Download Here] (<a href="https://cran.r-project.org/">https://cran.r-project.org/</a>) Does not need a SODO request</li>
+                    <li>Run Installer</li>
+                </ol>
+                <h4><a id="RStudioIDE_5"></a>RStudioIDE</h4>
+                <p>With R usually comes R Studio, This is where all the programing magic happens </p>
+                <ol>
+                    <li>[Download here] (<a href="https://download1.rstudio.org/RStudio-1.0.44.zip">https://download1.rstudio.org/RStudio-1.0.44.zip</a>) Just find and open .exe</li>
+                    <li>Extract the .zip file and into a folder called Rstudio in your C:</li>
+                    <li>Create a Shortcut to the bin/rstudio.exe by right-clicking on the file and create a shortcut and place it anywhere you like (desktop is the best bet…)</li>
+                </ol>
+                <h4><a id="So_Youre_new_to_R_12"></a>So, You’re new to R</h4>
+                <p>It’s ok! everyone starts somewhere!</p>
+                <h4><a id="first_run_this_code_16"></a>first run this code</h4>
+<pre><code class="language-r">install.packages(<span class="hljs-string">"readxl"</span>)
+    install.packages(<span class="hljs-string">"ggplot2"</span>)
+    install.packages(<span class="hljs-string">"plotly"</span>)
+    install.packages(<span class="hljs-string">"scales"</span>)
+    install.packages(<span class="hljs-string">"tidyr"</span>)
+    install.packages(<span class="hljs-string">"dplyr"</span>)
+    install.packages(<span class="hljs-string">"DT"</span>)
+    install.packages(<span class="hljs-string">"ggthemes"</span>)
+    install.packages(<span class="hljs-string">"data.table"</span>)
+    install.packages(<span class="hljs-string">"shiny"</span>)
+    install.packages(<span class="hljs-string">"devtools"</span>)
+    install.packages(<span class="hljs-string">"lubridate"</span>)
+    install.packages(<span class="hljs-string">"stringr"</span>)
+    install.packages(<span class="hljs-string">"htmlwidgets"</span>)
+    install.packages(<span class="hljs-string">"devtools"</span>)
+    install.packages(<span class="hljs-string">"flexdashboard"</span>)
+    install.packages(<span class="hljs-string">"ggthemes"</span>)
+    install.packages(<span class="hljs-string">"leaflet"</span>)
+    install.packages(<span class="hljs-string">"forecast"</span>)
+    install.packages(<span class="hljs-string">"xlsx"</span>)
+    install.packages(<span class="hljs-string">"sspir"</span>)
+    install.packages(<span class="hljs-string">"strucchange"</span>)
+    install.packages(<span class="hljs-string">"plotrix"</span>)
+</code></pre>
+                <p><a href="https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages">https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages</a> &lt;- more packages</p>
+                <h4><a id="Shiny_45"></a>Shiny</h4>
+                <p>Woo Shiny. It our main dashboarding/visualization tool <br>
+                    To install run in r install.packages(“shiny”)</p>
+                <h4><a id="R_Markdown_Flexdashboard_data_viz_dashboard_50"></a>R Markdown Flexdashboard (data viz dashboard)</h4>
+                <p><a href="http://rmarkdown.rstudio.com/flexdashboard">http://rmarkdown.rstudio.com/flexdashboard</a> <br>
+                    <a href="http://www.htmlwidgets.org/showcase_d3heatmap.html">http://www.htmlwidgets.org/showcase_d3heatmap.html</a> </p>
+                <h4><a id="Tutorials_56"></a>Tutorials</h4>
+                <ul>
+                    <li>Swirl &lt;- Learn R here! <a href="http://swirlstats.com/">http://swirlstats.com/</a></li>
+                    <li>Intro to Data Viz -&gt; course at Duke <a href="http://www2.stat.duke.edu/~mc301/ARTSCI101_Su16/">http://www2.stat.duke.edu/~mc301/ARTSCI101_Su16/</a></li>
+                    <li>R Graphics -&gt; more ggplot <a href="http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html">http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html</a> </li>
+                    <li>ggplot2 code <a href="http://docs.ggplot2.org/current/">http://docs.ggplot2.org/current/</a> </li>
+                    <li>[data.table] (<a href="https://rstudio.github.io/DT/">https://rstudio.github.io/DT/</a>)</li>
+                    <li>[Deploying a Shiny Server] (<a href="https://qualityandinnovation.com/2015/12/09/deploying-your-very-own-shiny-server/">https://qualityandinnovation.com/2015/12/09/deploying-your-very-own-shiny-server/</a>)</li>
+                    <li>[Time Series]<a href="https://media.readthedocs.org/pdf/a-little-book-of-r-for-time-series/latest/a-little-book-of-r-for-time-series.pdf">https://media.readthedocs.org/pdf/a-little-book-of-r-for-time-series/latest/a-little-book-of-r-for-time-series.pdf</a></li>
+                    <li>[Intro to Data Cleaning] (<a href="https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf">https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf</a>)</li>
+                </ul>
+                <p>No R tutorial section is complete without Hadley Wickham<br>
+                    <a href="http://hadley.nz/">http://hadley.nz/</a></p>
+                <h4><a id="R_programing_style_guide_Lets_write_beautiful_code_72"></a>R programing style guide - Let’s write beautiful code.</h4>
+                <p><a href="https://google.github.io/styleguide/Rguide.xml">https://google.github.io/styleguide/Rguide.xml</a></p>
+                <h4><a id="Cheat_Sheets_75"></a>Cheat Sheets</h4>
+                <p>[Data Wrangling] (<a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf</a>)<br>
+                    [Quandl] (<a href="https://s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+R+Cheat+Sheet.pdf">https://s3.amazonaws.com/quandl-static-content/Documents/Quandl±+R+Cheat+Sheet.pdf</a>)</p>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd2">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c2" aria-expanded="false" aria-controls="c2">
+          python - Programing Language
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd2">
+      <div class="panel-body">
+        <p>Sorry Python. You will get a better how to section soon we promise</p>
+                <p>[Download Here] (<a href="https://www.continuum.io/downloads">https://www.continuum.io/downloads</a>) Does not need SODO request</p>
+                <h4><a id="Tutorials_85"></a>Tutorials</h4>
+                <p>[Python the Hard Way] (<a href="https://learnpythonthehardway.org/book/">https://learnpythonthehardway.org/book/</a>)</p>
+                <h4><a id="Cheat_Sheets_88"></a>Cheat Sheets</h4>
+                <p>[Reference guide] (<a href="http://sleet.aos.wisc.edu/~gpetty/wp/wp-content/uploads/2011/10/Python_qr.pdf">http://sleet.aos.wisc.edu/~gpetty/wp/wp-content/uploads/2011/10/Python_qr.pdf</a>)</p>
+                <h4><a id="Style_Guide__Lets_create_beautiful_code_92"></a>Style Guide &lt;- Let’s create beautiful code</h4>
+                <p><a href="https://google.github.io/styleguide/pyguide.html">https://google.github.io/styleguide/pyguide.html</a></p>
+                <h4><a id="Hate_doing_boring_stuff_95"></a>Hate doing boring stuff?</h4>
+                <p><a href="https://automatetheboringstuff.com/">https://automatetheboringstuff.com/</a></p>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd7">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c7" aria-expanded="false" aria-controls="c7">
+          Charting
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd7">
+      <div class="panel-body">
+        <ul>
+            <li><a href="https://www.highcharts.com" target="_blank">HighCharts</a>
+            <p>Interactive JavaScript charts for your web pages.</p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd8">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c8" aria-expanded="false" aria-controls="c8">
+          Mapping
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd8">
+      <div class="panel-body">
+        <ul>
+            <li><a href="https://nominatim.openstreetmap.org/" target="_blank">Nominatim</a>
+            <p>Nominatim is a search engine for OpenStreetMap data.</p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+
+
+
+</div> <!-- panel-group -->
+
+
+
+
+    </div> <!-- col-md-6 -->
+
+
+<div class="col-md-6">
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+<div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd4">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c4" aria-expanded="false" aria-controls="c4">
+          Full Stack
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd4">
+      <div class="panel-body">
+        <ul>
+        <li><a href="http://mean.io/" target="_blank">MEAN</a>
+        <p>MEAN is an opinionated fullstack javascript framework - 
+which simplifies and accelerates web application development.</p>
+        </li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd5">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c5" aria-expanded="false" aria-controls="c5">
+          MV* Frameworks
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd5">
+      <div class="panel-body">
+        <ul>
+            <li><a href="https://angularjs.org/" target="_blank">AngularJS</a>
+            <p></p></li>
+            <li><a href="https://cli.angular.io/" target="_blank">Angular CLI (Command Line Interface for Angular</a>
+            <p></p></li>
+            <li><a href="http://facebook.github.io/react/" target="_blank">React</a>
+            <p></p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd6">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c6" aria-expanded="false" aria-controls="c6">
+          CSS &amp; CSS Frameworks
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd6">
+      <div class="panel-body">
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">MDN CSS reference</a>
+            <p>This CSS Reference shows the basic syntax of a CSS rule; lists all standard CSS properties, pseudo-classes and pseudo-elements, @-rules, units, and selectors, all together in alphabetical order, as well as just the selectors by type and allows you to quickly access detailed information for each of them.</p></li>
+            <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+            <p>Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development</p></li>
+            <li><a href="http://daneden.github.io/Toast/" target="_blank">Toast</a>
+            <p>The Toast framework is a grid. That's it.</p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  
+
+  
+
+<div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd9">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c9" aria-expanded="false" aria-controls="c9">
+          Javascript Plugins and Helpers
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd9">
+      <div class="panel-body">
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank">MDN JavaScript reference</a>
+            <p>A repository of facts about the JavaScript language. The entire language is described here in detail.</p></li>
+            <li><a href="https://plainjs.com/javascript/" target="_blank">plainJS</a>
+            <p>Utilities for writing powerful web applications</p></li>
+            <li><a href="https://jquery.com/" target="_blank">JQuery</a>
+            <p>A fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API</p></li>
+            <li><a href="http://cdn.jque.re/" target="_blank">JQuery Plugins</a>
+            <p>JQuery CDN (Content Delivery Network)</p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd10">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c10" aria-expanded="false" aria-controls="c10">
+          Lint &amp; (Pre)Processing
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd10">
+      <div class="panel-body">
+        <ul>
+            <li><a href="http://csslint.net/" target="_blank">CSS Lint</a>
+            <p>A tool that performs static analysis of source code and flags patterns that might be errors or otherwise cause problems for the developer.</p></li>
+            <li><a href="http://www.jslint.com/" target="_blank">JS Lint</a>
+            <p>A tool that performs static analysis of source code and flags patterns that might be errors or otherwise cause problems for the developer.</p></li>
+            <li><a href="https://gulpjs.com/" target="_blank">Gulp</a>
+            <p>A toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.</p></li>
+            <li><a href="http://sass-lang.com/" target="_blank">Sass</a>
+            <p>The most mature, stable, and powerful professional grade CSS extension language in the world.</p></li>
+            <li><a href="http://lesscss.org/" target="_blank">Less</a>
+            <p>A CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themeable and extendable.</p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="hd13">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#c13" aria-expanded="false" aria-controls="c13">
+          Databases
+        </a>
+      </h4> <!-- panel-heading -->
+    </div>
+    <div id="c13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hd13">
+      <div class="panel-body">
+        <ul>
+            <li><a href="https://www.mongodb.com/" target="_blank">MongoDB</a>
+            <p>MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.</p></li>
+            <li><a href="https://www.microsoft.com/web/platform/database.aspx" target="_blank">SQL Server</a>
+            <p>SQL Server Express is free database software running free SQL server technology that gives you all the bells and whistles of a paid database solution .</p></li>
+        </ul>
+      </div> <!-- panel-body -->
+    </div> <!-- panel-collapse -->
+  </div> <!-- panel -->
+
+
+</div> <!-- panel-group -->
+
+</div> <!-- col-md-6 -->
+
+</div> <!-- row -->
+
+<div class="row">
+    <div class="col-md-12" style="text-align: center;">
+        <h3> corgi tax </h3> 
+        <video width="320" height="240" autoplay controls loop>
+        <source src="http://i.imgur.com/QkozEpp.mp4" type="video/mp4">
+    </div>
+</div>
+
+
+
+</div> <!-- container -->
+
+</body>
+</html>
